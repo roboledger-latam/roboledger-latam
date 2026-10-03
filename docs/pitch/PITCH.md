@@ -83,6 +83,28 @@ Conviene tener la respuesta preparada aunque no entre en el video.
 | ¿Por qué blockchain y no una base de datos? | Fondos retenidos y repartos que ninguna de las partes puede alterar, incluida la plataforma. |
 | ¿Cómo se pasa de virtual a físico? | Cada robot físico necesita verificar el vínculo con el dispositivo y una evaluación en condiciones reales. La arquitectura ya separa al agente del adaptador del robot. |
 | ¿Quién paga la evaluación? | Pendiente de definir con Fede. |
+| ¿Es para el agro o para cualquier industria? | La plataforma sirve para cualquier tarea evaluable. Arrancamos por el agro porque clasificar maduración es fácil de medir y tiene demanda en cada cosecha. |
+| ¿Por qué blockchain y no Mercado Pago más una base de datos? | Por cuatro cosas que un sistema tradicional no resuelve bien: la plataforma no puede tocar la plata ni cambiar el reparto, el robot tiene fondos propios con límites de gasto, se puede pagar a entrenadores en cualquier país aunque el monto sea chico, y el historial del robot no queda atado a CalchAI (ERC-8004 es un estándar abierto). |
+| ¿Son robots físicos o agentes en la nube? | Hoy, agentes en la nube auditados: el robot virtual es un agente de IA que hace una tarea real. Los robots físicos son el siguiente paso y requieren verificar el vínculo con el dispositivo y evaluarlo en condiciones reales. |
+| ¿Cuál es el diferencial, si cada pieza ya existe? | La combinación, y sobre todo dos piezas: skills versionadas que hay que re-certificar cuando cambian, y regalías automáticas para quien entrena. *Pendiente: relevamiento de competencia para confirmarlo.* |
+| ¿Quién le da autoridad al evaluador? | Ver el bloque de riesgo de abajo. Es la pregunta más importante del pitch. |
+
+## ⚠ Riesgo de pitch: la autoridad del evaluador
+
+**Esta es la pregunta que puede tirar abajo el proyecto entero frente al jurado.** Todo ROBOLEDGER se apoya en la palabra "verificable". Si cuando preguntan quién certifica que el robot hizo bien el trabajo la respuesta es débil o evasiva, el jurado concluye que la verificación es de mentira y que todo lo demás (identidad, historial, reparto) registra con mucha prolijidad algo que nadie comprobó.
+
+**La trampa:** responder que la blockchain lo garantiza. La blockchain garantiza que la firma es auténtica, no que el juicio sea correcto.
+
+**La segunda trampa:** creer que se resuelve sacando a las personas del medio. Cualquier mecanismo que propongamos termina en una decisión humana:
+- Una evaluación reproducible depende de quién etiquetó las imágenes de prueba y de quién escribió los criterios.
+- Un evaluador que pone plata en garantía solo la pierde si alguien decide que se equivocó. Esa decisión la toma una persona o un grupo de personas.
+- Varios evaluadores reducen el error de uno solo, pero siguen siendo personas aplicando un criterio.
+
+**Lo que decimos:** no eliminamos el criterio humano, lo hacemos visible, atribuible y con responsabilidad. Cada evaluación dice qué metodología se usó, quién etiquetó, quién evaluó y con qué resultado, y cualquiera puede volver a correrla. Es coherente con el resto del proyecto, que justamente se basa en atribuir la contribución humana.
+
+**Lo que no decimos nunca:** "sin intermediarios", "trustless", "sin necesidad de confiar en nadie". Un inversor con experiencia en cripto lo desarma en una pregunta.
+
+Detalle completo en el [hallazgo sobre la autoridad del evaluador](../hallazgos/2026-10-03-autoridad-del-evaluador.md).
 
 ## Pendientes antes de grabar
 
