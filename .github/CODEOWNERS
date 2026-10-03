@@ -1,0 +1,10 @@
+# Revisores obligatorios por carpeta. La última regla que coincide gana.
+# TODO: reemplazar las líneas de código cuando estén los usuarios de GitHub de Franco y Nico.
+
+/docs/        @villanuevafacundonicolas
+/evaluation/  @villanuevafacundonicolas
+/.github/     @fjuarez17 @villanuevafacundonicolas
+
+# /contracts/  @<franco> @<nico>
+# /app/        @<franco> @<nico>
+# /worker/     @<franco> @<nico>

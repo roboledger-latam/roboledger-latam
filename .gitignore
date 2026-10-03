@@ -1,0 +1,32 @@
+# Secretos: nunca al repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+keystore/
+wallets/
+
+# Dependencias y builds
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Foundry / Hardhat
+cache/
+artifacts/
+broadcast/
+typechain-types/
+
+# Supabase local
+supabase/.temp/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
