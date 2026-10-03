@@ -42,4 +42,5 @@ Acción concreta. Si requiere trabajo, link al Issue.
 
 | Fecha | Hallazgo | Autor | Estado |
 |---|---|---|---|
-| — | Todavía no hay hallazgos | — | — |
+| 2026-10-03 | [Qué pide Metropolis para la entrega y quién juzga](2026-10-03-bases-metropolis.md) | Facu | abierto |
+| 2026-10-03 | [El dataset Laboro Tomato sirve para la demo, con tres condiciones](2026-10-03-dataset-laboro-tomato.md) | Facu | abierto |
