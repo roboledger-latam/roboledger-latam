@@ -57,6 +57,10 @@ Lo más importante de esta lista. Un error acá no se arregla con un revert.
 | 12-oct, 12:00 | Congelamiento de código: solo entran arreglos de bugs de la demo |
 | 13-oct | Entrega. La versión entregada se marca con el tag `v1.0-entrega` |
 
+## Hallazgos
+
+Si descubrís algo que el resto tiene que saber (un límite de una herramienta, un riesgo, un problema de diseño), documentalo en [docs/hallazgos/](docs/hallazgos/). Si además requiere trabajo, abrí un Issue y linkealo.
+
 ## Decisiones
 
 Toda decisión que cambie el alcance, la arquitectura o estas reglas se anota en [docs/DECISIONES.md](docs/DECISIONES.md): qué se decidió, quién y por qué.
