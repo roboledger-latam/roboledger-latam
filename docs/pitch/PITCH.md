@@ -88,6 +88,14 @@ Conviene tener la respuesta preparada aunque no entre en el video.
 | ¿Son robots físicos o agentes en la nube? | Hoy, agentes en la nube auditados: el robot virtual es un agente de IA que hace una tarea real. Los robots físicos son el siguiente paso y requieren verificar el vínculo con el dispositivo y evaluarlo en condiciones reales. |
 | ¿Cuál es el diferencial, si cada pieza ya existe? | La combinación, y sobre todo dos piezas: skills versionadas que hay que re-certificar cuando cambian, y regalías automáticas para quien entrena. *Pendiente: relevamiento de competencia para confirmarlo.* |
 | ¿Quién le da autoridad al evaluador? | Ver el bloque de riesgo de abajo. Es la pregunta más importante del pitch. |
+| ¿Cómo sé que el robot usó la versión evaluada y no otra? | Hoy no se puede probar: el hash demuestra qué se entregó, no qué lo produjo. Es un límite del MVP. El paso siguiente es ejecutar en entornos certificados que firman qué código corrió. |
+| ¿Qué impide que el dueño contrate a su propio robot para inflar el historial? | Cada contratación paga comisión, así que inflar cuesta plata. Además mostramos cuántos clientes distintos tiene el robot, no solo cuántos trabajos. *Pendiente: confirmar con Franco y Nico si entra en el MVP.* |
+| Los ejemplos de enseñanza salen de un dataset ajeno: ¿quién cobra las regalías? | *Pendiente: depende de la decisión del Issue #3. No grabar la demo sin resolverlo.* |
+| ¿Qué pasa si el proveedor del modelo de IA lo actualiza? | La versión exacta del modelo queda fijada en la skill y registrada en la evaluación. Si cambia, es una versión nueva y se vuelve a evaluar. |
+| ¿Qué impide que el cliente rechace un trabajo bien hecho para no pagar? | Hoy lo resuelve CalchAI como árbitro del piloto. En el roadmap: aceptación automática si el cliente no responde en un plazo, y reputación también para los clientes. |
+| ¿Quién responde legalmente si el robot falla? | El operador del robot: un robot no es persona jurídica. La evaluación informa la tasa de error y no promete perfección. Para un piloto real definimos términos de servicio con topes de responsabilidad y hacemos el análisis regulatorio en cada país. |
+| ¿Por qué todo depende de blockchain? | No todo: blockchain resuelve que nadie toque la plata ni reescriba la historia. La calidad la juzgan personas con nombre y responsabilidad. |
+| ¿Quién va a pagar en MON? | Nadie en el mundo real. Es la moneda de testnet para la demo; un piloto real usaría stablecoins. |
 
 ## ⚠ Riesgo de pitch: la autoridad del evaluador
 
@@ -104,10 +112,13 @@ Conviene tener la respuesta preparada aunque no entre en el video.
 
 **Lo que no decimos nunca:** "sin intermediarios", "trustless", "sin necesidad de confiar en nadie". Un inversor con experiencia en cripto lo desarma en una pregunta.
 
+**Tampoco ponemos el hash en el centro.** El hash es el precinto de la caja: prueba que nadie cambió lo que se entregó, no que sirva. El valor está en la ejecución del robot. Ver [hallazgo de brechas](../hallazgos/2026-10-04-brechas-para-el-jurado.md).
+
 Detalle completo en el [hallazgo sobre la autoridad del evaluador](../hallazgos/2026-10-03-autoridad-del-evaluador.md).
 
 ## Pendientes antes de grabar
 
+- [ ] Resolver el Issue #3 (atribución de los ejemplos de enseñanza)
 - [ ] Confirmar si el video va en inglés
 - [ ] Confirmar el largo máximo del video en las reglas oficiales
 - [ ] Dato de mercado con fuente
