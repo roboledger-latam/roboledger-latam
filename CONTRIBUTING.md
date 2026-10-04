@@ -55,7 +55,7 @@ Lo más importante de esta lista. Un error acá no se arregla con un revert.
 | Fecha | Qué pasa |
 |---|---|
 | 12-oct, 12:00 | Congelamiento de código: solo entran arreglos de bugs de la demo |
-| 13-oct | Entrega. La versión entregada se marca con el tag `v1.0-entrega` |
+| 13-oct, 23:59 (Nueva York) | Entrega. En Argentina es el **14-oct a las 00:59**: la noche del 13 se puede subir hasta casi la una de la mañana, pero el día 14 ya no. "Hasta el 14" no significa todo el 14. La versión entregada se marca con el tag `v1.0-entrega` |
 
 ## Decisiones
 
