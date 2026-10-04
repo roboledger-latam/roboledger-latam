@@ -45,3 +45,5 @@ Acción concreta. Si requiere trabajo, link al Issue.
 | 2026-10-03 | [Qué pide Metropolis para la entrega y quién juzga](2026-10-03-bases-metropolis.md) | Facu | abierto |
 | 2026-10-03 | [El dataset Laboro Tomato sirve para la demo, con tres condiciones](2026-10-03-dataset-laboro-tomato.md) | Facu | abierto |
 | 2026-10-03 | [⚠ La autoridad del evaluador es el punto más débil del proyecto](2026-10-03-autoridad-del-evaluador.md) | Facu | abierto |
+| 2026-10-04 | [⚠ Cinco brechas que puede explotar el jurado, y qué peso real tiene el hash](2026-10-04-brechas-para-el-jurado.md) | Facu | abierto |
+| 2026-10-04 | [Quién responde legalmente si el robot no cumple](2026-10-04-implicancias-legales.md) | Facu | abierto |
